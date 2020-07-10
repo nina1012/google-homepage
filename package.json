@@ -1,0 +1,19 @@
+{
+  "name": "google-homepage",
+  "version": "1.0.0",
+  "description": "This is the first challenge from The Odin Project.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nina1012/google-homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nina1012/google-homepage/issues"
+  },
+  "homepage": "https://github.com/nina1012/google-homepage#readme"
+}
