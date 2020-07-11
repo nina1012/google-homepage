@@ -1,5 +1,5 @@
-This is the first challenge from The Odin Project.
+# The first challenge from The Odin Project.
 
-It will utilize basic knowledge of HTML and CSS.
+Google search page-difficult version
 
-Difficult version
+Technologies : **HTML, SASS**
