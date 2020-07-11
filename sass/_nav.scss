@@ -1,0 +1,76 @@
+// NAVIGATION STYLES
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.2rem 2.5rem 2rem;
+  border-bottom: 1px solid #e4e0e0;
+
+  & > * {
+    align-items: center;
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    .logo-image {
+      width: 8rem;
+    }
+  }
+
+  &__right {
+    display: flex;
+    flex: auto;
+    justify-content: flex-end;
+  }
+}
+
+.nav__left {
+  form {
+    width: 61rem;
+    margin-left: 5rem;
+  }
+  input {
+    width: 100%;
+    padding: 1.35rem;
+    border: none;
+    border-radius: 5rem;
+    box-shadow: 0 0 0 1px rgba(100, 100, 100, 0.3);
+  }
+  input:focus,
+  input:hover {
+    outline: none;
+    box-shadow: 0 0 5px 1px rgba(100, 100, 100, 0.3);
+  }
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 0.8rem 2.5rem;
+  border-radius: 0.3rem;
+  width: max-content;
+
+  &:focus,
+  &:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 2px 1px rgba(26, 115, 232, 0.3);
+  }
+}
+
+.btn-blue {
+  background-color: rgb(26, 115, 232);
+  color: white;
+  margin-left: 2rem;
+}
+
+.link > svg {
+  width: 2rem;
+
+  &:hover {
+    box-shadow: 0 0 10px 0 rgba(26, 115, 232, 0.1);
+  }
+}

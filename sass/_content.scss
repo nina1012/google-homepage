@@ -1,0 +1,113 @@
+// GENERAL RESETING 
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // 10px === 1rem
+  font-family: sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+// MAIN CONTENT STYLES
+
+.results-number {
+  color: gray;
+  font-size: 1.4rem;
+  padding-top: 1rem;
+}
+
+.main {
+  padding-left: 17rem;
+  .results-container {
+    width: 55.4rem;
+  }
+}
+.result {
+  padding-top: 2rem;
+}
+
+.website {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  &:hover {
+    cursor: pointer;
+  }
+
+  .website-icon {
+    display: flex;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+  }
+
+  .ad {
+    border: 1px solid #006621;
+    color: #006621;
+  }
+  .website-address {
+    color: #3c4043;
+    font-size: 1.3rem;
+  }
+}
+
+.result-header {
+  display: inline-block;
+  line-height: 1;
+  font-size: 1.8rem;
+  text-decoration: none;
+  box-shadow: none;
+  &:focus,
+  &:hover {
+    box-shadow: 0 2px 0 0 currentColor;
+  }
+}
+.result-preview-text {
+  font-size: 1.3rem;
+  padding-top: 0.5rem;
+  line-height: 1.6;
+  color: #3c4043;
+}
+
+.related-results {
+  padding: 2rem 0;
+
+  .related-list {
+    padding: 2rem 0;
+  }
+  h3 {
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+  svg {
+    width: 2rem;
+    fill: currentColor;
+  }
+
+  .related-link {
+    display: flex;
+    align-items: center;
+    color: #1a0dab;
+    font-weight: 700;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .website {
+    height: 3rem;
+  }
+  .website-address {
+    color: currentColor;
+    font-size: 1.5rem;
+  }
+}
